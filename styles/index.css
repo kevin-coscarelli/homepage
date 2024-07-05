@@ -1,0 +1,201 @@
+:root {
+    --breakpoint-small: 576px;
+    --breakpoint-medium: 768px;
+    --breakpoint-large: 992px;
+    --breakpoint-xlarge: 1200px;
+    /* Colors */
+    --pale-azurre: rgb(112, 214, 255);
+    --pale-azurre-dark: rgb(0, 44, 61);
+    --cyclamen: rgb(255, 112, 166);
+    --cyclamen-dark: rgb(82, 0, 31);
+    --atomic-tangerine: rgb(255, 151, 112);
+    --atomic-tangerine-dark: rgb(82, 22, 0);
+    --naples-yellow: rgb(255, 214, 112);
+    --naples-yellow-dark: rgb(82, 61, 0);
+    --mindaro: rgb(233, 255, 112);
+    --mindaro-dark: rgb(61, 82, 0);
+    /* Fonts */
+    --font-serotiva: 'Serotiva';
+    --font-hurme: 'Hurme';
+}
+.thin {
+    font-weight: 100;
+}
+.extra-light {
+    font-weight: 200;
+}
+.light {
+    font-weight: 300;
+}
+.regular {
+    font-weight: 400;
+}
+.medium {
+    font-weight: 500;
+}
+.semi-bold {
+    font-weight: 600;
+}
+.bold {
+    font-weight: 700;
+}
+.extra-bold {
+    font-weight: 800;
+}
+.black {
+    font-weight: 900;
+}
+
+@media (max-width: 576px) {
+    /* Styles for small screens */
+    .head-container {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    /* Styles for medium screens */
+    .head-container {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* Styles for large screens */
+    .head-container > img {
+        width: 90vw;
+        max-width: 1000px;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Styles for extra large screens */
+    .head-container > img {
+        max-width: 1000px;
+        width: 100%;
+        margin-left: 20px;
+    }
+     
+}
+
+body, html {
+    margin: 0;
+    overflow-x: hidden;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+body, .head-container {
+    background: linear-gradient(
+        to right, 
+        var(--pale-azurre), 
+        var(--cyclamen), 
+        var(--atomic-tangerine)
+    );
+}
+* {
+    font-family: sans-serif;
+    font-size: 18px;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+}
+*::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.icon-gray {
+    background-color: gray;
+}
+.icon-white {
+    background-color: white;
+}
+.i-calendar {
+    -webkit-mask: url(../assets/calendar-line.svg) no-repeat center;
+    mask: url(../assets/calendar-line.svg) no-repeat center;
+}
+.i-github {
+    -webkit-mask: url(../assets/github-fill.svg) no-repeat center;
+    mask: url(../assets/github-fill.svg) no-repeat center;
+}
+.i-linkedin {
+    -webkit-mask: url(../assets/linkedin-box-fill.svg) no-repeat center;
+    mask: url(../assets/linkedin-box-fill.svg) no-repeat center;
+}
+.i-location {
+    -webkit-mask: url(../assets/map-pin-2-line.svg) no-repeat center;
+    mask: url(../assets/map-pin-2-line.svg) no-repeat center;
+}
+.i-at {
+    -webkit-mask: url(../assets/at-line.svg) no-repeat center;
+    mask: url(../assets/at-line.svg) no-repeat center;
+}
+
+/* #canvas-container {
+    width: 100vw;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    mask-image: linear-gradient(180deg, white 65%, transparent 90%);
+    z-index: 0;
+} */
+.hidden {
+    top: -75px !important;
+}
+.sticky {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    transition: top .25s ease-in;
+}
+#head-mobile {
+    height: 75px;
+    max-width: 350px;
+}
+.head-container {
+    display: flex;
+}
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: white;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.content-item {
+}
+
+
+.about {
+    display: flex;
+    column-gap: 25px;
+}
+.about-profile {
+    min-width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+.profile-pic {
+    position: relative;
+    top: -70px;
+    left: -70px;
+    width: 400px;
+}
+
+.tags > div {
+    width: 25px;
+    height: 25px;
+}
+
+.footer {
+    color: white;
+}
+.footer-item .logo {
+    width: 50px;
+    height: 50px;
+}

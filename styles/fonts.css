@@ -1,0 +1,171 @@
+/*====Hurme====*/
+@font-face {
+    font-family: 'Hurme';
+    src: url('../assets/fonts/HurmeGeometricSans1-Hairline.otf') format('opentype'), 'sans-serif';
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Hurme';
+    src: url('../assets/fonts/HurmeGeometricSans1-HairlineOblique.otf') format('opentype'), 'sans-serif';
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Hurme';
+    src: url('../assets/fonts/HurmeGeometricSans1-Thin.otf') format('opentype'), 'sans-serif';
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Hurme';
+    src: url('../assets/fonts/HurmeGeometricSans1-ThinOblique.otf') format('opentype'), 'sans-serif';
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Hurme';
+    src: url('../assets/fonts/HurmeGeometricSans1-Light.otf') format('opentype'), 'sans-serif';
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Hurme';
+    src: url('../assets/fonts/HurmeGeometricSans1-LightOblique.otf') format('opentype'), 'sans-serif';
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Hurme';
+    src: url('../assets/fonts/HurmeGeometricSans1.otf') format('opentype'), 'sans-serif';
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Hurme';
+    src: url('../assets/fonts/HurmeGeometricSans1-Oblique.otf') format('opentype'), 'sans-serif';
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Hurme';
+    src: url('../assets/fonts/HurmeGeometricSans1-SemiBold.otf') format('opentype'), 'sans-serif';
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Hurme';
+    src: url('../assets/fonts/HurmeGeometricSans1SemiBoldOblique.otf') format('opentype'), 'sans-serif';
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Hurme';
+    src: url('../assets/fonts/HurmeGeometricSans1-Bold.otf') format('opentype'), 'sans-serif';
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Hurme';
+    src: url('../assets/fonts/HurmeGeometricSans1-BoldOblique.otf') format('opentype'), 'sans-serif';
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Hurme';
+    src: url('../assets/fonts/HurmeGeometricSans1-Black.otf') format('opentype'), 'sans-serif';
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Hurme';
+    src: url('../assets/fonts/HurmeGeometricSans1-BlackOblique.otf') format('opentype'), 'sans-serif';
+    font-weight: 900;
+    font-style: italic;
+}
+/*====Serotiva====*/
+
+@font-face {
+    font-family: 'Serotiva';
+    src: url('../assets/fonts/Serotiva-Light.otf') format('opentype'), 'sans-serif';
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Serotiva';
+    src: url('../assets/fonts/Serotiva-LightItalic.otf') format('opentype'), 'sans-serif';
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Serotiva';
+    src: url('../assets/fonts/Serotiva-Regular.otf') format('opentype'), 'sans-serif';
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Serotiva';
+    src: url('../assets/fonts/Serotiva-RegularItalic.otf') format('opentype'), 'sans-serif';
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Serotiva';
+    src: url('../assets/fonts/Serotiva-Medium.otf') format('opentype'), 'sans-serif';
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Serotiva';
+    src: url('../assets/fonts/Serotiva-MediumItalic.otf') format('opentype'), 'sans-serif';
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Serotiva';
+    src: url('../assets/fonts/Serotiva-SemiBold.otf') format('opentype'), 'sans-serif';
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Serotiva';
+    src: url('../assets/fonts/Serotiva-SemiBoldItalic.otf') format('opentype'), 'sans-serif';
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Serotiva';
+    src: url('../assets/fonts/Serotiva-Bold.otf') format('opentype'), 'sans-serif';
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Serotiva';
+    src: url('../assets/fonts/Serotiva-BoldItalic.otf') format('opentype'), 'sans-serif';
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Serotiva';
+    src: url('../assets/fonts/Serotiva-ExtraBold.otf') format('opentype'), 'sans-serif';
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Serotiva';
+    src: url('../assets/fonts/Serotiva-ExtraBoldItalic.otf') format('opentype'), 'sans-serif';
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Serotiva';
+    src: url('../assets/fonts/Serotiva-Black.otf') format('opentype'), 'sans-serif';
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Serotiva';
+    src: url('../assets/fonts/Serotiva-BlackItalic.otf') format('opentype'), 'sans-serif';
+    font-weight: 900;
+    font-style: italic;
+}
