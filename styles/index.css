@@ -454,6 +454,7 @@ body, html {
 /* MOBILE NAV CONTENT */
 
 .mobile-nav-button {
+    display: none;
     position: fixed;
     width: 50px;
     height: 50px;
@@ -463,6 +464,7 @@ body, html {
     z-index: 3;
 }
 .mobile-menu {
+    display: none;
     position: fixed;
     background: linear-gradient(var(--pale-azurre), var(--mindaro));
     width: 100vw;
@@ -475,13 +477,13 @@ body, html {
 .hidden-menu {
     left: -110%;
 }
-.mobile-menu-outer-container {
+.mobile-menu .mobile-menu-outer-container {
     overflow: visible;
     border: 1px solid var(--gray);
     margin: 5px;
     height: calc(100% - 12px);
 }
-.mobile-menu-inner-container {
+.mobile-menu .mobile-menu-outer-container .mobile-menu-inner-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -490,7 +492,7 @@ body, html {
     margin: 4px;
     height: calc(100% - 18px);
 }
-.mobile-menu-buttons {
+.mobile-menu .mobile-menu-outer-container .mobile-menu-inner-container .mobile-menu-buttons {
     overflow: visible;
     display: flex;
     flex-direction: column;
@@ -498,7 +500,7 @@ body, html {
     padding-left: 20px;
     align-items: self-start;
 }
-button.mobile-menu-close {
+.mobile-menu .mobile-menu-outer-container .mobile-menu-inner-container button.mobile-menu-close {
     align-self: end;
     margin-right: 10px;
     margin-top: 5px;
@@ -544,8 +546,8 @@ button.mobile-menu-close {
         height: 40px;
     }
     /* MOBILE NAV CONTENT */
-    .mobile-nav-button {
-        visibility: visible;
+    .mobile-nav-button, .mobile-menu {
+        display: block;
     }
 }
 
