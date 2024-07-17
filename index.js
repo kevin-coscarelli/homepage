@@ -1,47 +1,8 @@
-import { Particles } from './particle.js';
-
 function getRandomInt(min, max) {
     const minCeiled = Math.ceil(min);
     const maxFloored = Math.floor(max);
     return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled);
 }
-
-// window.onload = () => {
-//     if (document.getElementById('canvas-container')) {
-//         new Particles();
-//     }
-// };
-
-// =========
-// const scrollPoint = 475;
-// const headerState = {
-//     isSticky: false,
-// };
-// if (document.body.scrollTop > scrollPoint) {
-//     headerState.isSticky = true;
-// }
-// const headContainerLargeEl = document.getElementById('head-container-l');
-// const headContainerSmallEl = document.getElementById('head-container-s');
-// const contentEl = document.body;
-
-// const shouldToggleHeaderClasses = (scroll) => (
-//     (scroll > scrollPoint && !headerState.isSticky) || 
-//     (scroll <= scrollPoint && headerState.isSticky)
-// );
-// const toggleHeaderClasses = () => {
-//     console.log('toggle', headerState.isSticky);
-//     headContainerSmallEl.classList.toggle('hidden');
-//     headerState.isSticky = !headerState.isSticky;
-// }
-
-// document.body.addEventListener('scroll', function() {
-//     window.requestAnimationFrame(() => {
-//         if (shouldToggleHeaderClasses(contentEl.scrollTop)) {
-//             toggleHeaderClasses();
-//         }
-//     });
-// });
-// =========
 
 // Dashed lines
 const MIN_DASHES = 4;
@@ -145,6 +106,8 @@ const scrollToContact = () => {
 scrollTopButton.addEventListener('click', scrollToTop);
 scrollExperienceButton.addEventListener('click', scrollToExperience);
 scrollContactButton.addEventListener('click', scrollToContact);
+
+// Mobile menu
 
 const mobileNavButton = document.getElementById('mobileNavButton');
 const mobileMenu = document.getElementById('mobileMenu');
