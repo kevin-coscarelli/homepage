@@ -83,89 +83,112 @@
     font-weight: 900;
     font-style: italic;
 }
-/*====Serotiva====*/
-
+/*====HankenGrotesk====*/
 @font-face {
-    font-family: 'Serotiva';
-    src: url('../assets/fonts/Serotiva-Light.otf') format('opentype'), 'sans-serif';
+    font-family: 'HKGrotesk';
+    src: url('../assets/fonts/HankenGrotesk-Thin.ttf') format('truetype'), 'sans-serif';
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HKGrotesk';
+    src: url('../assets/fonts/HankenGrotesk-ThinItalic.ttf') format('truetype'), 'sans-serif';
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'HKGrotesk';
+    src: url('../assets/fonts/HankenGrotesk-ExtraLight.ttf') format('truetype'), 'sans-serif';
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HKGrotesk';
+    src: url('../assets/fonts/HankenGrotesk-ExtraLightItalic.ttf') format('truetype'), 'sans-serif';
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'HKGrotesk';
+    src: url('../assets/fonts/HankenGrotesk-Light.ttf') format('truetype'), 'sans-serif';
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Serotiva';
-    src: url('../assets/fonts/Serotiva-LightItalic.otf') format('opentype'), 'sans-serif';
+    font-family: 'HKGrotesk';
+    src: url('../assets/fonts/HankenGrotesk-LightItalic.ttf') format('truetype'), 'sans-serif';
     font-weight: 300;
     font-style: italic;
 }
 @font-face {
-    font-family: 'Serotiva';
-    src: url('../assets/fonts/Serotiva-Regular.otf') format('opentype'), 'sans-serif';
+    font-family: 'HKGrotesk';
+    src: url('../assets/fonts/HankenGrotesk-Regular.ttf') format('truetype'), 'sans-serif';
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Serotiva';
-    src: url('../assets/fonts/Serotiva-RegularItalic.otf') format('opentype'), 'sans-serif';
+    font-family: 'HKGrotesk';
+    src: url('../assets/fonts/HankenGrotesk-RegularItalic.ttf') format('truetype'), 'sans-serif';
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
-    font-family: 'Serotiva';
-    src: url('../assets/fonts/Serotiva-Medium.otf') format('opentype'), 'sans-serif';
+    font-family: 'HKGrotesk';
+    src: url('../assets/fonts/HankenGrotesk-Medium.ttf') format('truetype'), 'sans-serif';
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Serotiva';
-    src: url('../assets/fonts/Serotiva-MediumItalic.otf') format('opentype'), 'sans-serif';
+    font-family: 'HKGrotesk';
+    src: url('../assets/fonts/HankenGrotesk-MediumItalic.ttf') format('truetype'), 'sans-serif';
     font-weight: 500;
     font-style: italic;
 }
 @font-face {
-    font-family: 'Serotiva';
-    src: url('../assets/fonts/Serotiva-SemiBold.otf') format('opentype'), 'sans-serif';
+    font-family: 'HKGrotesk';
+    src: url('../assets/fonts/HankenGrotesk-SemiBold.ttf') format('truetype'), 'sans-serif';
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Serotiva';
-    src: url('../assets/fonts/Serotiva-SemiBoldItalic.otf') format('opentype'), 'sans-serif';
+    font-family: 'HKGrotesk';
+    src: url('../assets/fonts/HankenGrotesk-SemiBoldItalic.ttf') format('truetype'), 'sans-serif';
     font-weight: 600;
     font-style: italic;
 }
 @font-face {
-    font-family: 'Serotiva';
-    src: url('../assets/fonts/Serotiva-Bold.otf') format('opentype'), 'sans-serif';
+    font-family: 'HKGrotesk';
+    src: url('../assets/fonts/HankenGrotesk-Bold.ttf') format('truetype'), 'sans-serif';
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Serotiva';
-    src: url('../assets/fonts/Serotiva-BoldItalic.otf') format('opentype'), 'sans-serif';
+    font-family: 'HKGrotesk';
+    src: url('../assets/fonts/HankenGrotesk-BoldItalic.ttf') format('truetype'), 'sans-serif';
     font-weight: 700;
     font-style: italic;
 }
 @font-face {
-    font-family: 'Serotiva';
-    src: url('../assets/fonts/Serotiva-ExtraBold.otf') format('opentype'), 'sans-serif';
+    font-family: 'HKGrotesk';
+    src: url('../assets/fonts/HankenGrotesk-ExtraBold.ttf') format('truetype'), 'sans-serif';
     font-weight: 800;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Serotiva';
-    src: url('../assets/fonts/Serotiva-ExtraBoldItalic.otf') format('opentype'), 'sans-serif';
+    font-family: 'HKGrotesk';
+    src: url('../assets/fonts/HankenGrotesk-ExtraBoldItalic.ttf') format('truetype'), 'sans-serif';
     font-weight: 800;
     font-style: italic;
 }
 @font-face {
-    font-family: 'Serotiva';
-    src: url('../assets/fonts/Serotiva-Black.otf') format('opentype'), 'sans-serif';
+    font-family: 'HKGrotesk';
+    src: url('../assets/fonts/HankenGrotesk-Black.ttf') format('truetype'), 'sans-serif';
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Serotiva';
-    src: url('../assets/fonts/Serotiva-BlackItalic.otf') format('opentype'), 'sans-serif';
+    font-family: 'HKGrotesk';
+    src: url('../assets/fonts/HankenGrotesk-BlackItalic.ttf') format('truetype'), 'sans-serif';
     font-weight: 900;
     font-style: italic;
 }

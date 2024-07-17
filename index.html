@@ -2,215 +2,279 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <title>Kevin Coscarelli - Full Stack Engineer</title>
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
 
-    <div class="head-container hidden sticky" id="head-container-s">
-        <img id="head-mobile" src="assets/head-mobile.svg"/>
+    <div class="header-container" id="headerContainer">
+        <div class="head-inner-container">
+            <h1 class="head-title">KC</h1>
+            <div class="head-menu">
+                <button type="button" class="head-button" id="scrollTop">
+                    Top
+                </button>
+                <button type="button" class="head-button" id="scrollExperience">
+                    Experience
+                </button>
+                <button type="button" class="head-button" id="scrollContact">
+                    Contact
+                </button>
+            </div>
+        </div>
+        <div class="line"></div>
     </div>
 
-    
+    <button type="button" class="mobile-nav-button" id="mobileNavButton">
+        ᳅
+    </button>
+
+    <div class="mobile-menu hidden-menu" id="mobileMenu">
+        <div class="mobile-menu-outer-container">
+            <div class="mobile-menu-inner-container">
+                <button type="button" class="mobile-menu-close" id="mobileMenuClose">
+                    ☒
+                </button>
+                <div class="mobile-menu-buttons">
+                    <button type="button" id="menuScrollTop">
+                        Top
+                    </button>
+                    <button type="button" id="menuScrollExperience">
+                        Experience
+                    </button>
+                    <button type="button" id="menuScrollContact">
+                        Contact
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="content" id="content">
 
-        <div class="head-container content-item full-screen" id="head-container-l">
-            <div class="head-outer-line">
-
-                <div class="head-header">
-                    <div class="head-inner-line">
+        <div class="head-container content-item" id="headContainer">
+            <div class="inner-container head-outer-line">
+                <div class="head-inner-line">
+    
+                    <div class="head-header">
                         <h1 class="head-name">KEVIN</br>COSCARELLI</h1>
+                        <div class="subline"></div>
+                        <h2 class="head-role">FULL STACK ENGINEER</h2>
                     </div>
-
-                    <img src="assets/subline.svg"/>
-
-                    <h2 class="head-role">FULL STACK ENGINEER</h2>
-                </div>
-                
-                <div class="head-foot">
-                    <img src="assets/subline.svg"/>
-                    <div class="foot-text">
-                        <p>Proletariat since 2015</p>
+                    
+                    <div class="head-foot">
+                        <div style="flex-grow: 1;" class="subline"></div>
+                        <div class="foot-text">
+                            <p>Proletariat since 2015</p>
+                        </div>
+                        <div style="width: 150px;" class="subline"></div>
                     </div>
-                    <img src="assets/subline.svg"/>
                 </div>
             </div>
+            <div class="subline divider"></div>
         </div>
 
-        <div class="content-item about full-screen">
-            <div class="about-profile">
-                <img class="profile-pic" alt="Kevin Coscarelli" src="assets/profile.png"/>
+        <div class="content-item">
+            <div class="inner-container">
+                <div class="about-content">
+                    <div class="about-title">
+                        <img src="assets/about-me.svg"/>
+                        <div class="subline"></div>
+                    </div>
+                    <p>
+                        Hi! my name is Kevin Coscarelli, I've been working as a Front-end/Full-stack engineer for 
+                        the past nine years. I've worked for two major consulting companies in Argentina 
+                        where I got the opportunity to work for a variety of clients such as Coca Cola, 
+                        Disney, Sophos, Delphix, Thomas Cook and Reed among others and upon relocating to 
+                        Denmark I worked at Lenus and later at Ageras Group. I've worked in both small 
+                        and large international teams where I learned to implement agile workflow methodologies 
+                        and to articulate different tech stacks, the most important of them being AngularJS, 
+                        Angular, React, Backbone, Node, GraphQL, React-Native, Laravel, Docker and AWS.
+                        During all of these years curiosity has been my main drive, both when I landed 
+                        my first job and barely knew anything about software development, and today, when 
+                        I see myself as a more seasoned developer but still remain eager to learn new things. 
+                        I've grown as a developer to a point where I can not only make a positive contribution 
+                        to everyday teamwork, but also, due to the many challenges I faced and the experience 
+                        I got from them, I can help others in their work as well as contribute in product 
+                        design and software architecture.
+                    </p>
+                </div>
             </div>
-            <div class="about-content">
-                <h3>About Me</h3>
-                <p>
-                    Hi! my name is Kevin Coscarelli, I've been working as a Front-end/Full-stack engineer for 
-                    the past nine years. I've worked for two major consulting companies in Argentina 
-                    where I got the opportunity to work for a variety of clients such as Coca Cola, 
-                    Disney, Sophos, Delphix, Thomas Cook and Reed among others and upon relocating to 
-                    Denmark I worked at Lenus and later at Ageras Group. I've worked in both small 
-                    and large international teams where I learned to implement agile workflow methodologies 
-                    and to articulate different tech stacks, the most important of them being AngularJS, 
-                    Angular, React, Backbone, Node, GraphQL, React-Native, Laravel, Docker and AWS.
-                    During all of these years curiosity has been my main drive, both when I landed 
-                    my first job and barely knew anything about software development, and today, when 
-                    I see myself as a more seasoned developer but still remain eager to learn new things. 
-                    I've grown as a developer to a point where I can not only make a positive contribution 
-                    to everyday teamwork, but also, due to the many challenges I faced and the experience 
-                    I got from them, I can help others in their work as well as contribute in product 
-                    design and software architecture.
-                </p>
-            </div>
+            <div class="subline divider"></div>
         </div>
 
-        <div class="content-item experience">
-            <div class="experience-title">
-                <h3>Experience</h3>
-            </div>
-            <div class="experience-container">
-                <div class="experience-item">
-                    <h4 class="experience-title">Ageras Group</h4>
-                    <p class="experience-subtitle">Full Stack Engineer</p>
-                    <div class="tags">
-                        <p><div class="i-calendar icon-gray"></div>2023 - 2024</p>
-                        <p><div class="i-location icon-gray"></div>Copenhagen, Denmark</p>
+        <div class="content-item">
+            <div class="inner-container experience-container" id="experienceContainer">
+
+                <div class="experience-item" id="ageras">
+                    <div class="experience-data">
+                        <h4 class="experience-title">> Ageras Group</h4>
+                        <p class="experience-year">2023 - 2024</p>
+                        <p class="experience-location">Copenhagen, Denmark</p>
                     </div>
                     <ul class="experience-description">
                         <li>
-                            Ageras Advisor - Developed and assisted in product design for the new client portal. Helped develop and maintain the old client portal, partner portal, and in-house developed CRM. The development team was responsible for maintaining and improving infrastructure and deployment operations. Worked with React, Laravel, MySQL, Elasticsearch, AWS, and Vercel.
+                            <b>Ageras Advisor</b><br/>Developed and assisted in product design for the new client portal. Helped develop and maintain the old client portal, partner portal, and in-house developed CRM. The development team was responsible for maintaining and improving infrastructure and deployment operations. Worked with React, Laravel, MySQL, Elasticsearch, AWS, and Vercel.
                         </li>
                     </ul>
                 </div>
 
-                <div class="experience-item">
-                    <h4 class="experience-title">Lenus</h4>
-                    <p class="experience-subtitle">Software Engineer</p>
-                    <div class="tags">
-                        <p><div class="i-calendar icon-gray"></div>2022 - 2023</p>
-                        <p><div class="i-location icon-gray"></div>Copenhagen, Denmark</p>
-                    </div>
+                <img src="assets/squiggle-1.svg" style="height: 435px; margin-top: -40px; margin-left: -80px;"/>
+
+                <div class="experience-item" id="lenus">
                     <ul class="experience-description">
                         <li>
                             Worked with Node, GraphQL, Apollo, PostgreSQL, and React on the internal management platform and the partners management platform. Contributed to the mobile client platform using React Native.
                         </li>
                     </ul>
+                    <div class="experience-data">
+                        <h4 class="experience-title">Lenus <</h4>
+                        <p class="experience-year">2022 - 2023</p>
+                        <p class="experience-location">Copenhagen, Denmark</p>
+                    </div>
                 </div>
 
-                <div class="experience-item">
-                    <h4 class="experience-title">GlobalLogic</h4>
-                    <p class="experience-subtitle">Web UI Developer</p>
-                    <div class="tags">
-                        <p><div class="i-calendar icon-gray"></div>2018 - 2021</p>
-                        <p><div class="i-location icon-gray"></div>La Plata, Argentina</p>
+                <img src="assets/squiggle-2.svg" style="height: 380px; margin-left: -40px;"/>
+
+                <div class="experience-item" id="globallogic">
+                    <div class="experience-data">
+                        <h4 class="experience-title">> GlobalLogic</h4>
+                        <p class="experience-year">2018 - 2021</p>
+                        <p class="experience-location">La Plata, Argentina</p>
                     </div>
                     <ul class="experience-description">
                         <li>
-                            Delphix - Started by performing maintenance and developing features with AngularJS. Later, took on the challenge of migrating the app from AngularJS to Angular, maintaining a hybrid app supporting both frameworks. Ensured quality standards with a high coverage of unit and integration tests.
+                            <b>Delphix</b><br/>Started by performing maintenance and developing features with AngularJS. Later, took on the challenge of migrating the app from AngularJS to Angular, maintaining a hybrid app supporting both frameworks. Ensured quality standards with a high coverage of unit and integration tests.
                         </li>
                         <li>
-                            Coca-Cola Argentina - Developed and assisted in product design for a marketing campaign tracking platform from scratch using Angular. Served as the front-end lead during this period.
+                            <b>Coca-Cola Argentina</b><br/>Developed and assisted in product design for a marketing campaign tracking platform from scratch using Angular. Served as the front-end lead during this period.
                         </li>
                         <li>
-                            Sophos Phish Threat - Contributed to migrating the platform from AngularJS to Angular and performed maintenance tasks.
+                            <b>Sophos Phish Threat</b><br/>Contributed to migrating the platform from AngularJS to Angular and performed maintenance tasks.
                         </li>
                     </ul>
                 </div>
 
-                <div class="experience-item">
-                    <h4 class="experience-title">Globant</h4>
-                    <p class="experience-subtitle">Web UI Developer</p>
-                    <div class="tags">
-                        <p><div class="i-calendar icon-gray"></div>2015 - 2018</p>
-                        <p><div class="i-location icon-gray"></div>La Plata, Argentina</p>
-                    </div>
+                <img src="assets/squiggle-3.svg" style="height: 425px; margin-top: -110px; margin-left: 110px;"/>
+
+                <div class="experience-item" id="globant">
                     <ul class="experience-description">
                         <li>
-                            MUZIT TRACE APP - Contributed to the development of a new platform by working on front-end features with BackboneJS and Marionette.
+                            <b>MUZIT TRACE APP</b><br/>Contributed to the development of a new platform by working on front-end features with BackboneJS and Marionette.
                         </li>
                         <li>
-                            Reed UK - Maintained an app as the sole front-end developer, working with a team of back-end developers. Primarily used KnockoutJS.
+                            <b>Reed UK</b><br/>Maintained an app as the sole front-end developer, working with a team of back-end developers. Primarily used KnockoutJS.
                         </li>
                         <li>
-                            Thomas Cook - Worked as a front-end developer, maintaining and developing new features in the flights booking portal with AngularJS. Performed end-to-end testing and did some back-end development with NodeJS and Express.
+                            <b>Thomas Cook</b><br/>Worked as a front-end developer, maintaining and developing new features in the flights booking portal with AngularJS. Performed end-to-end testing and did some back-end development with NodeJS and Express.
                         </li>
                         <li>
-                            Disney Expedition Team - Focused on front-end development and occasionally performed back-end work for the Disneyland park portal. Utilized AngularJS and Node, and initiated writing unit tests.
+                            <b>Disney Expedition Team</b><br/>Focused on front-end development and occasionally performed back-end work for the Disneyland park portal. Utilized AngularJS and Node, and initiated writing unit tests.
                         </li>
                     </ul>
+                    <div class="experience-data">
+                        <h4 class="experience-title">Globant <</h4>
+                        <p class="experience-year">2015 - 2018</p>
+                        <p class="experience-location">La Plata, Argentina</p>
+                    </div>
                 </div>
             </div>
+
+            <div class="subline divider"></div>
         </div>
 
         
-        <div class="content-item misc">
-            <div class="tech">
-                <h3>Tech Stack</h3>
-                <div>
-                    <span>Laravel</span>
-                    <span>React</span>
-                    <span>React Native</span>
-                    <span>Node</span>
-                    <span>GraphQL</span>
-                    <span>Angular</span>
-                    <span>AngularJS</span>
-                    <span>MongoDB</span>
-                    <span>PostgreSQL</span>
-                    <span>MySQL</span>
-                    <span>Docker</span>
-                    <span>AWS</span>
-                    <span>ASP.NET</span>
-                    <span>Express</span>
-                    <span>GIT</span>
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                    <span>Typescript</span>
-                    <span>C#</span>
-                </div>
-            </div>
-            <div class="misc-education">
-                <h3>Education</h3>
-                <div class="education-item">
-                    <h4>Universidad Nacional de La Plata</h4>
-                    <p>Multimedia Design</p>
-                    <p>2011 - 2016</p>
+        <div class="content-item">
+            <div class="inner-container">
+                <div class="misc-content">
+                    <div class="misc-left">
+                        <h3>Tech Stack</h3>
+                        <div class="subline"></div>
+                        <div class="misc-tech">
+                            <span>Laravel</span>
+                            <span>React</span>
+                            <span>React Native</span>
+                            <span>Node</span>
+                            <span>GraphQL</span>
+                            <span>Angular</span>
+                            <span>AngularJS</span>
+                            <span>MongoDB</span>
+                            <span>PostgreSQL</span>
+                            <span>MySQL</span>
+                            <span>Docker</span>
+                            <span>AWS</span>
+                            <span>ASP.NET</span>
+                            <span>Express</span>
+                            <span>GIT</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Typescript</span>
+                            <span>C#</span>
+                        </div>
+                    </div>
+    
+                    <div class="misc-right">
+                        <div class="misc-education">
+                            <h3>Education</h3>
+                            <div class="subline"></div>
+                            <div class="education-item">
+                                <h4>Multimedia Design</h4>
+                                <p class="insitution">Universidad Nacional de La Plata</p>
+                                <p class="year">2011 - 2016</p>
+                            </div>
+                        </div>
+            
+                        <div class="misc-languages">
+                            <h3>Languages</h3>
+                            <div class="subline"></div>
+                            <div class="language-item spanish">
+                                <div class="language-info">
+                                    <span>Spanish</span>
+                                    <span>Native</span>
+                                </div>
+                                <div class="total-bar">
+                                    <div class="partial-bar"></div>
+                                </div>
+                            </div>
+                            <div class="language-item english">
+                                <div class="language-info">
+                                    <span>English</span>
+                                    <span>Fluent</span>
+                                </div>
+                                <div class="total-bar">
+                                    <div class="partial-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="misc-languages">
-                <h3>Languages</h3>
-                <div class="language-item spanish">
-                    <div class="language-info">
-                        <span>Spanish</span>
-                        <span>Native</span>
-                    </div>
-                    <div class="total-bar">
-                        <div class="partial-bar"></div>
-                    </div>
-                </div>
-                <div class="language-item english">
-                    <div class="language-info">
-                        <span>English</span>
-                        <span>Fluent</span>
-                    </div>
-                    <div class="total-bar">
-                        <div class="partial-bar"></div>
-                    </div>
-                </div>
-            </div>
+            <div class="subline divider"></div>
         </div>
-
     </div>
 
-    <div class="content-item footer">
-        <div class="footer-content">
-            <div class="footer-item">
-                <h3>Contact</h3>
-                <p><div class="i-linkedin icon-white logo"></div> linkedin.com/in/kevincoscarelli</p>
-                <p><div class="i-github icon-white logo"></div> github.com/kevin-coscarelli</p>
-                <p><div class="i-at icon-white logo"></div> kevinsl1991@outlook.com</p>
+    <div class="content-item">
+        <div class="inner-container">
+            <div class="footer-container" id="footerContainer">
+                <div class="footer-title">
+                    <img src="assets/get-in-touch.svg"/>
+                    <div class="subline"></div>
+                </div>
+                <div class="footer-links">
+                    <a class="link" href="http://linkedin.com/in/kevincoscarelli" target="_blank">
+                        <div class="i-linkedin logo"></div><p>linkedin.com/in/kevincoscarelli</p>
+                    </a>
+                    <a class="link" href="http://github.com/kevin-coscarelli" target="_blank">
+                        <div class="i-github logo"></div><p>github.com/kevin-coscarelli</p>
+                    </a>
+                    <a class="link" href="mailto:kevinsl1991@outlook.com">
+                        <div class="i-at logo"></div><p>kevinsl1991@outlook.com</p>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
